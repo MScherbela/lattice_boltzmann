@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy", "matplotlib", "jax", "imageio"]
 
+[project.optional-dependencies]
+gpu = ["jax[cuda12]"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
