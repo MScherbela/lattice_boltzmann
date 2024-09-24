@@ -1,0 +1,11 @@
+[project]
+name = "lattice_boltzmann"
+version = "0.1.0"
+description = "Simplistic 2D Lattice Boltzmann solver using JAX"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib", "jax", "imageio"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
